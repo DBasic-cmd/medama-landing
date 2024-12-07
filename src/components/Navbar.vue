@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink } from "vue-router";
 import logo from "@/assets/img/Materna_logo.png";
 </script>
 
@@ -10,16 +11,18 @@ import logo from "@/assets/img/Materna_logo.png";
       >
         <!-- Logo -->
         <div class="text-white text-lg font-semibold">
-          <img :src="logo" alt="Akademia" class="h-5 w-auto ms-5" />
+          <RouterLink to="/">
+            <img :src="logo" alt="Akademia" class="h-5 w-auto ms-5" />
+          </RouterLink>
         </div>
 
         <!-- Navigation Links -->
         <ul class="flex space-x-6 mx-auto">
           <li>
-            <a
-              href="#"
+            <RouterLink
+              to="/"
               class="text-white hover:text-white hover:bg-blue-500 p-3 rounded-md focus:bg-blue-500 focus:text-white" 
-              >Home</a
+              >Home</RouterLink
             >
           </li>
           <li><a href="#about" class="text-white hover:text-white hover:bg-blue-500 p-3 rounded-md focus:bg-blue-500 focus:text-white">

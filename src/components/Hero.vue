@@ -28,7 +28,7 @@ defineProps({
             <p class="mb-5">
               {{ subtitle }}
             </p>
-            <button class="btn btn-primary" :href="externalUrl"><a>
+            <button class="btn bg-blue-400"><a :href="externalUrl">
                 Preview
             </a></button>
           </div>

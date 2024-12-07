@@ -1,17 +1,13 @@
 <script setup>
 import Navbar from '@/components/Navbar.vue'
-import Footer from '@/components/Footer.vue'
-import Hero from '@/components/Hero.vue'
-import About from '@/components/About.vue'
-import Features from './components/Features.vue'
+import { RouterView } from 'vue-router'
+
 </script>
 
 <template>
 <Navbar/>
-<Hero/>
-<About/>
-<Features/>
-<Footer/>
+<RouterView/>
+
 </template>
 
 
