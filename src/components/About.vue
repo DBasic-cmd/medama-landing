@@ -1,26 +1,25 @@
 <script setup>
-
+import aboutImage from "@/assets/img/about.png"
 </script>
 
 <template>
-    <div>
-        <section class=" bg-white" id="about">
-    <div class="container-xl lg:container m-auto py-12">
-      <h1 class="text-center mt-6">
-          <span class="text-6xl font-bold">Get to know Us</span>
-      </h1>
-      <div class=" text-center py-6">
-        
-        <p>
-            Medama is an innovative hospital management system developed by Next-IT Services,
-             designed to transform the way healthcare institutions operate. With a focus on
-              simplicity, dynamism, and ease of use, Medama offers a comprehensive solution 
-              that integrates and streamlines all core areas of a hospital, ensuring seamless 
-              collaboration and efficient workflows.
+  <section class="hero min-h-screen" id="about">
+    <div class="hero-content flex-col lg:flex-row" >
+      <img
+          :src="aboutImage"
+          class="max-w-sm rounded-lg " />
+      <div>
+        <h3 class="text-5xl font-bold text-center">About Us</h3>
+        <p class="p-24">
+          At Medama, we provide cutting-edge hospital management solutions to streamline
+          healthcare operations.Our platform empowers medical institutions with tools to
+          enhance efficiency, improve patient care, and simplify administrative tasks.
+          Our mission is to bridge the gap between technology and
+          healthcare, ensuring that hospitals and clinics can focus on what matters
+          most—saving lives.
         </p>
 
       </div>
     </div>
   </section>
-    </div>
 </template>

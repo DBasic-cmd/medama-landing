@@ -1,37 +1,20 @@
 <script setup>
-import footerImage from "@/assets/img/next-logo.jpg";
+
 </script>
 
 <template>
   <div>
-    <footer class="footer bg-base-200 text-base-content p-10">
-      <aside>
-        <img :src="footerImage" alt="Next-IT Logo" width="50" height="50" />
-        <p>
-          Next-IT services.
+    <footer class="footer footer-center bg-white text-base-content p-10" id="contact">
+      <h3 class="font-bold text-3xl">CONTACT US</h3>
+      <div>
+        <nav class="grid grid-flow-col gap-4">
+          <a class="link link-hover" href="#about">About us</a>
+          <a class="link link-hover" href="#contact">Contact</a>
+          <
+        </nav>
+      </div>
 
-        </p>
-      </aside>
-      <nav>
-        <h6 class="footer-title">Services</h6>
-        <a class="link link-hover">Branding</a>
-        <a class="link link-hover">Design</a>
-        <a class="link link-hover">Marketing</a>
-        <a class="link link-hover">Advertisement</a>
-      </nav>
-      <nav>
-        <h6 class="footer-title">Company</h6>
-        <a class="link link-hover">About us</a>
-        <a class="link link-hover">Contact</a>
-        <a class="link link-hover">Jobs</a>
-        <a class="link link-hover">Press kit</a>
-      </nav>
-      <nav>
-        <h6 class="footer-title">Legal</h6>
-        <a class="link link-hover">Terms of use</a>
-        <a class="link link-hover">Privacy policy</a>
-        <a class="link link-hover">Cookie policy</a>
-      </nav>
+
     </footer>
   </div>
 </template>
